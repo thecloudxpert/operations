@@ -1,0 +1,18 @@
+{"8ccf0987-ce11-46be-80f3-b723c4ca80de": {
+   "resourceKinds": [
+      {
+         "resourceKindKey": "HostSystem",
+         "adapterKindKey": "VMWARE"
+      },
+      {
+         "resourceKindKey": "ClusterComputeResource",
+         "adapterKindKey": "VMWARE"
+      }
+   ],
+   "modificationTime": 1743198359466,
+   "name": "Total Oversized VMs",
+   "formula": "SUM(${adaptertype=VMWARE, objecttype=VirtualMachine, metric=summary|oversized, depth=3})",
+   "description": "",
+   "unitId": "",
+   "modifiedBy": "45f30591-f247-437a-bf62-19969c4f8d8b"
+}}

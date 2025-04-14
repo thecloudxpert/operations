@@ -1,0 +1,18 @@
+{"d3782068-0bce-4780-8c30-b32702fd55ee": {
+   "resourceKinds": [
+      {
+         "resourceKindKey": "HostSystem",
+         "adapterKindKey": "VMWARE"
+      },
+      {
+         "resourceKindKey": "ClusterComputeResource",
+         "adapterKindKey": "VMWARE"
+      }
+   ],
+   "modificationTime": 1743198343811,
+   "name": "Total Undersized VMs",
+   "formula": "SUM(${adaptertype=VMWARE, objecttype=VirtualMachine, metric=summary|undersized, depth=3})",
+   "description": "",
+   "unitId": "",
+   "modifiedBy": "45f30591-f247-437a-bf62-19969c4f8d8b"
+}}
