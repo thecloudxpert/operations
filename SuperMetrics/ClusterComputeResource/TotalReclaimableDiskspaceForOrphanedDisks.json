@@ -1,0 +1,12 @@
+{"22bd93ad-e380-4f22-bc50-cede3fc7c69e": {
+    "resourceKinds": [{
+       "resourceKindKey": "ClusterComputeResource",
+       "adapterKindKey": "VMWARE"
+    }],
+    "modificationTime": 1744715387281,
+    "name": "Total Orphaned Disk Per Cluster",
+    "formula": "sum(${adaptertype=VMWARE, objecttype=Datastore, metric=reclaimable|orphaned_disk|diskspace, depth=2})",
+    "description": "",
+    "unitId": "",
+    "modifiedBy": "bd212d3b-7699-405b-adf2-2776ad0cd2e5"
+ }}
