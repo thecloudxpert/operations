@@ -3,5 +3,7 @@
 ## Super Metric Central
 
 ### Cluster Compute Resource
-- [Total Oversized VMs](https://github.com/thecloudxpert/operations/blob/main/super%20metrics/TotalOversizedVMsByClusterComputeResource.json)
-- [Total Undersized VMs](https://github.com/thecloudxpert/operations/blob/main/super%20metrics/TotalUndersizedVMsByClusterComputeResource.json)
+
+- [Total Oversized VMs](https://github.com/thecloudxpert/operations/blob/main/SuperMetrics/ClusterComputeResource/TotalOversizedVMs.json)
+- [Total Undersized VMs](https://github.com/thecloudxpert/operations/blob/main/SuperMetrics/ClusterComputeResource/TotalUndersizedVMs.json)
+- [Total Reclaimable Cost for Oversized VMs](https://github.com/thecloudxpert/operations/blob/main/SuperMetrics/ClusterComputeResource/TotalUndersizedVMs.json)
