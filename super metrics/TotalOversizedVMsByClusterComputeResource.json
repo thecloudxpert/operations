@@ -11,7 +11,7 @@
    ],
    "modificationTime": 1743198359466,
    "name": "Total Oversized VMs",
-   "formula": "SUM(${adaptertype=VMWARE, objecttype=VirtualMachine, metric=summary|oversized, depth=3})",
+   "formula": "SUM(${adaptertype=VMWARE, objecttype=VirtualMachine, metric=summary|oversized, depth=2})",
    "description": "",
    "unitId": "",
    "modifiedBy": "45f30591-f247-437a-bf62-19969c4f8d8b"
