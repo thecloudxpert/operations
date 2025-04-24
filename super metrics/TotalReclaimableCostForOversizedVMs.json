@@ -1,0 +1,12 @@
+{"19a14e67-78fa-4db9-9e06-caf7a5256aec": {
+   "resourceKinds": [{
+      "resourceKindKey": "ClusterComputeResource",
+      "adapterKindKey": "VMWARE"
+   }],
+   "modificationTime": 1745525719641,
+   "name": "Total Reclaimable Cost for Oversized VMs",
+   "formula": "sum(${adaptertype=VMWARE, objecttype=VirtualMachine, metric=cost|reclaimableCost, depth=2, where= \"summary|oversized == 1\"})",
+   "description": "",
+   "unitId": "",
+   "modifiedBy": "bd212d3b-7699-405b-adf2-2776ad0cd2e5"
+}}
